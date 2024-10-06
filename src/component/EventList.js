@@ -44,9 +44,13 @@ const EventsList = () => {
       </h2>
 
       <div className="mb-4">
+        <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="search">
+          Search events by title, description, location, status, day, or max attendees:
+        </label>
         <input
+          id="search"
           type="text"
-          placeholder="Search events by title, description, location, status, day, or max attendees..."
+          placeholder="Enter search term..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="border rounded-lg w-full p-2 mb-2"

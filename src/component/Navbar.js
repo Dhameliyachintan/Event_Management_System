@@ -39,12 +39,6 @@ export default function Navbar() {
                     >
                       Login
                     </Link>
-                    <Link
-                      to="/registration"
-                      className="ml-4 inline-flex items-center justify-center rounded-md px-4 py-2 text-sm font-medium text-black"
-                    >
-                      Registration
-                    </Link>
                   </>
                 ) : (
                   <button
