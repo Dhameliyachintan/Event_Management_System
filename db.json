@@ -1,0 +1,52 @@
+{
+  "registration": [
+    {
+      "id": "fb21",
+      "name": "chintan dhameliya",
+      "email": "chintandhameliya28@gmail.com",
+      "password": "Chi@99047",
+      "confirmPassword": "Chi@99047"
+    }
+  ],
+  "event": [
+    {
+      "title": "Award Event",
+      "location": "America",
+      "date": "2024-10-15",
+      "time": "06:45",
+      "description": "Join us for a prestigious award event honoring outstanding achievements and excellence in our community! Celebrate the remarkable individuals who have made a significant impact through their hard work and dedication. Enjoy an elegant evening filled with inspiring speeches, live performances, and a chance to network with like-minded professionals. Dress to impress as we recognize the trailblazers and innovators among us. Let’s come together to celebrate success and inspire future generations!",
+      "status": "Award",
+      "imageUrl": "https://img.freepik.com/free-vector/background-with-red-curtains-golden-podium-text-award_433751-349.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1728000000&semt=ais_hybrid",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52911152.01212377!2d-161.6554510990339!3d35.96065628178864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2sin!4v1728171650983!5m2!1sen!2sin",
+      "day": "Wednesday",
+      "maxAttendees": "3",
+      "id": "4a2a"
+    },
+    {
+      "title": "Business Event",
+      "location": "India",
+      "date": "2024-10-03",
+      "time": "04:49",
+      "description": "Join us for an impactful business event designed to foster networking and collaboration! Connect with industry leaders and innovators as we explore the latest trends and strategies shaping the market. Engage in insightful panel discussions and interactive workshops that will empower your business growth. Enjoy ample opportunities to network and share ideas with like-minded professionals. Don’t miss this chance to elevate your business and build lasting connections!",
+      "status": "Business",
+      "imageUrl": "https://img.freepik.com/free-photo/people-taking-part-business-event_23-2149333689.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1728000000&semt=ais_hybrid",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14873.821755885976!2d72.91922319922328!3d21.2534322872402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045d9d2cd9939%3A0x9e44cd8160ab2efd!2sLaskana%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1728170317786!5m2!1sen!2sin",
+      "day": "Tuesday",
+      "maxAttendees": "2",
+      "id": "ef0c"
+    },
+    {
+      "id": "03c6",
+      "title": "Business Event",
+      "description": "Join us for an impactful business event designed to foster networking and collaboration! Connect with industry leaders and innovators as we explore the latest trends and strategies shaping the market. Engage in insightful panel discussions and interactive workshops that will empower your business growth. Enjoy ample opportunities to network and share ideas with like-minded professionals. Don’t miss this chance to elevate your business and build lasting connections!",
+      "date": "2024-10-02",
+      "location": "surat",
+      "maxAttendees": 3,
+      "status": "Business",
+      "imageUrl": "https://img.freepik.com/free-photo/medium-shot-smiley-people-business-event_23-2149304740.jpg",
+      "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14873.821755885976!2d72.91922319922332!3d21.2534322872402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be045d9d2cd9939%3A0x9e44cd8160ab2efd!2sLaskana%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1728173424172!5m2!1sen!2sin",
+      "time": "09:38",
+      "day": "Friday"
+    }
+  ]
+}

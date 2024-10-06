@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Login from "./component/form/Login";
+import Registration from "./component/form/Registration";
+import Home from "./pages/Home/Home";
+import Navbar from "./component/Navbar";
+import EventForm from "./component/EventForm";
+import About from "./pages/About";
+import EditEventForm from "./component/EditEventForm";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <ToastContainer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/eventForm" element={<EventForm />} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/editEventForm" element={<EditEventForm/>} />
+      </Routes>
     </div>
   );
 }
