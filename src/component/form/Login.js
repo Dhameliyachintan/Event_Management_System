@@ -43,7 +43,7 @@ const Login = () => {
     };
 
     try {
-      const response = await axios.get("http://localhost:3000/register");
+      const response = await axios.get("http://localhost:3001/registration");
       const users = response.data;
 
       const user = users.find((user) => user.email === userdata.email && user.password === userdata.password);
@@ -52,7 +52,7 @@ const Login = () => {
         localStorage.setItem("token", JSON.stringify(user.token));
         toast.success("Login successful!");
         setTimeout(() => {
-          navigate("/usertask");
+          navigate("/");
         }, 3000);
       } else {
         toast.error("Invalid email or password");

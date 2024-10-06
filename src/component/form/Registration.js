@@ -58,7 +58,7 @@ const Registration = () => {
     }
 
     axios
-      .post("http://localhost:3000/register", formData)
+      .post("http://localhost:3001/registration", formData)
       .then((res) => {
         const { access_token } = res.data;
         localStorage.setItem("token", access_token);
