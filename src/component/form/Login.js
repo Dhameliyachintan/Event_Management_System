@@ -3,12 +3,14 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useAuth } from "./Authprovider";
 
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState({});
   const navigate = useNavigate();
+  const { login } = useAuth();
 
   const validateForm = () => {
     const errors = {};
@@ -49,11 +51,11 @@ const Login = () => {
       const user = users.find((user) => user.email === userdata.email && user.password === userdata.password);
 
       if (user) {
-        localStorage.setItem("token", JSON.stringify(user.token));
+        login(user.token);
         toast.success("Login successful!");
         setTimeout(() => {
           navigate("/");
-        }, 3000);
+        }, 5000);
       } else {
         toast.error("Invalid email or password");
       }
